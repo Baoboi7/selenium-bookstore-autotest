@@ -12,6 +12,7 @@
     <None Remove="Config\appsettings.json" />
     <None Remove="TestData\AdminData.xlsx" />
     <None Remove="TestData\AuthData.xlsx" />
+    <None Remove="TestData\BookDetailData.xlsx" />
     <None Remove="TestData\CartData.xlsx" />
     <None Remove="TestData\CheckoutData.xlsx" />
     <None Remove="TestData\ProfileData.xlsx" />
@@ -26,6 +27,9 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="TestData\AuthData.xlsx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="TestData\BookDetailData.xlsx">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="TestData\CartData.xlsx">
